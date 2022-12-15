@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myC"
+    tools:context=".randActivity2">
+
+    <CalendarView
+        android:id="@+id/tkvm"
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:paddingTop="15dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="343dp"
+        android:paddingLeft="15dp">
+
+        <Button
+            android:id="@+id/btnsaat9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="9:00"
+            android:textColorHint="#000000"
+            android:textColorLink="#EC0000" />
+
+        <Button
+            android:id="@+id/btnsaat10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="10:00" />
+
+        <Button
+            android:id="@+id/btnsaat11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="11:00"
+            android:textColorHighlight="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnsaat12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="12:00" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="404dp"
+        android:paddingLeft="15dp">
+
+        <Button
+            android:id="@+id/btnsaat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="13:00" />
+
+        <Button
+            android:id="@+id/btnsaat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="14:00" />
+
+        <Button
+            android:id="@+id/btnsaat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="15:00" />
+
+        <Button
+            android:id="@+id/btnsaat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/btnrenk"
+            android:text="16:00" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnrandevu"
+        android:layout_width="167dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="223dp"
+
+        android:onClick="kayıt"
+        android:text="Randevu Al" />
+
+    <Button
+        android:id="@+id/btnrandevu3"
+        android:layout_width="167dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="33dp"
+
+        android:onClick="kytgor"
+        android:text="Randevuları göster" />
+
+    <TextView
+        android:id="@+id/zaman"
+        android:layout_width="363dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="21dp" />
+
+    <TextView
+        android:id="@+id/zaman2"
+        android:layout_width="363dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="513dp"
+        android:layout_marginEnd="21dp" />
+
+
+</RelativeLayout>
